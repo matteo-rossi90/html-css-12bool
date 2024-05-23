@@ -1,0 +1,44 @@
+/* REGOLE GRIGLIA */
+
+/* //////////////////////////////////// */
+
+/* Regole generali */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+[class="col-*"]{
+    flex: 0 0 auto;
+}
+
+/* per evitare che ci siano problemi con le colonne */
+.container-fluid{
+    width: 100%;
+    max-width: 100%;
+}
+
+/* regole per le righe */
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* COLONNE */
+
+/* colonna flessibile che si adatta allo spazio generato dalle altre */
+
+.col {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
