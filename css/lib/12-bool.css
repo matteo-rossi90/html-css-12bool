@@ -18,7 +18,7 @@
     margin: 12px
 }
 
-[class="col-*"]{
+[class*="col-"]{
     flex: 0 0 auto;
 }
 
@@ -36,6 +36,10 @@
     flex-wrap: wrap;
 }
 
+.container-row{
+    margin: 10px 10px
+}
+
 /* COLONNE */
 
 /* colonna flessibile che si adatta allo spazio generato dalle altre */
@@ -46,42 +50,42 @@
     max-width: 100%;
 }
 
-/* colonna 1/12 - per creare 6 colonne */
+/* colonna 1/12 */
 
 .col-1{
     flex-basis: calc((100% / 12) * 1);
     max-width: calc((100% / 12) * 1);
 }
 
-/* colonna 2/12 - per creare 5 colonne */
+/* colonna 2/12 */
 
 .col-2 {
     flex-basis: calc((100% / 12) * 2);
     max-width: calc((100% / 12) * 2);
 }
 
-/* colonna 3/12 - per creare 4 colonne */
+/* colonna 3/12 */
 
 .col-3 {
     flex-basis: calc((100% / 12) * 3);
     max-width: calc((100% / 12) * 3);
 }
 
-/* colonna 4/12 - per creare 3 colonne*/
+/* colonna 4/12*/
 
 .col-4 {
     flex-basis: calc((100% / 12) * 4);
     max-width: calc((100% / 12) * 4);
 }
 
-/* colonna 5/12 - per creare 3 colonne*/
+/* colonna 5/12*/
 
 .col-5 {
     flex-basis: calc((100% / 12) * 5);
     max-width: calc((100% / 12) * 5);
 }
 
-/* colonna 6/12 - per creare 2 colonne*/
+/* colonna 6/12*/
 
 .col-6 {
     flex-basis: calc((100% / 12) * 6);
