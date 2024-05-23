@@ -1,0 +1,21 @@
+/* foglio di stile */
+
+.box, 
+.box-blk,
+.box-red{
+    min-height: 50px;
+}
+
+.box{
+    background-color: rgb(255, 255, 255);
+}
+
+.box-blk{
+    background-color: rgb(0, 0, 0);
+
+}
+
+.box-red{
+    background-color: rgb(255, 0, 0);
+}
+
