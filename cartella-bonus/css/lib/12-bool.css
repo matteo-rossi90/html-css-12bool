@@ -192,10 +192,30 @@
 
 /* regole aggiuntive flex oriented */
 
+/* giustificazione oggetti */
+
 .between{
     justify-content: space-between;
 }
 
 .center{
     justify-content:center;
+}
+
+.end{
+    justify-content: flex-end;
+}
+
+/* allineamento oggetti */
+
+.align-start{
+    align-self: flex-start;
+}
+
+.align-center{
+    align-self:center;
+}
+
+.align-end {
+    align-self: flex-end;
 }

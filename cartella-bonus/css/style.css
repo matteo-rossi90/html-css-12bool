@@ -10,6 +10,18 @@
     /* color: white; */
 }
 
+.box-big{
+    border: 1px solid white;
+    background-color: dodgerblue;
+    min-height: 100px;
+}
+
+.box-sm{
+    border: 1px solid white;
+    background-color: dodgerblue;
+    min-height: 40px;
+}
+
 .box-nested{
     background-color: greenyellow;
     min-height: 60px;
