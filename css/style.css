@@ -1,2 +1,22 @@
 /* file di stile principale per regole generiche */
 
+.box{
+    border: 1px solid white;
+    background-color:dodgerblue;
+    height: 60px;
+    width: 100%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* color: white; */
+}
+
+.box-nested{
+    background-color: greenyellow;
+    height: 40px;
+    margin: 10px;
+}
+
+h2{
+    margin: 12px 0;
+}
